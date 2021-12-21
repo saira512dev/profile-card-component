@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Kumbh Sans', sans-serif; }
+
+.container {
+  background: url(/images/bg-pattern-top.svg) right 35vw bottom 50vh no-repeat, url("/images/bg-pattern-bottom.svg") left 40vw top 45vh no-repeat;
+  background-color: #19a2ae;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; }
+
+main {
+  width: 300px;
+  margin: 10px 15px;
+  border-radius: 10px 10px 10px 10px;
+  background: white; }
+  main .header-image {
+    width: 100%;
+    height: 130px; }
+    main .header-image .hero-image {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px 10px 0px  0px; }
+  main .user-image {
+    position: relative;
+    top: -100px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 100px;
+    height: 100px;
+    border: 5px solid white;
+    border-radius: 50%; }
+  main .content section {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid rgba(150, 150, 150, 0.2);
+    padding-bottom: 25px;
+    margin-top: 70px; }
+    main .content section h1 {
+      font-size: 18px;
+      margin-bottom: 5px; }
+    main .content section .age {
+      margin-left: 3px;
+      color: #969696;
+      font-weight: lighter; }
+    main .content section .place {
+      color: #6a6f81;
+      font-size: 14px; }
+  main .content footer {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 30px 20px 30px; }
+    main .content footer .category {
+      text-align: center; }
+    main .content footer .main-text {
+      font-weight: bold; }
+    main .content footer .subtext {
+      color: rgba(150, 150, 150, 0.8);
+      font-size: 10px;
+      letter-spacing: 1.5px;
+      font-weight: 600; }
+
+@media (min-width: 768px) {
+  .container {
+    background: url("/images/bg-pattern-top.svg") right 51vw bottom 40vh no-repeat, url("/images/bg-pattern-bottom.svg") left 48vw top 50vh no-repeat;
+    background-color: #19a2ae; } }
+
+/*# sourceMappingURL=style.css.map */
